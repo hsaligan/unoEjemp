@@ -1,5 +1,7 @@
 package ejmplosuno;
 
+/****modificación***********************/
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -11,7 +13,8 @@ public class Uno extends JFrame implements ActionListener{
     private JButton boton1, boton2, boton3, botonTexto, botonAgregar;
     private JTextField texto;
     private JTextArea textoLargo;
-    private JScrollPane scrollTexto;  
+    private JScrollPane scrollTexto;
+    private int sinUar = 0;
     
     String textoDos = "";
         
